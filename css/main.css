@@ -1494,9 +1494,6 @@ select.error {
 }
 
 /* countdown */
-#countdown {
-    max-width: fit-content;
-  }
   #countdown ul {
     margin: 5% 0 0 0;
     padding: 0;
@@ -1504,8 +1501,7 @@ select.error {
     gap: 5%;
   }
   #countdown ul li {
-    flex: 25%;
-    padding: 5%;
+    padding: 1rem;
     margin: 0;
     list-style: none;
     background: #ffffff36;
