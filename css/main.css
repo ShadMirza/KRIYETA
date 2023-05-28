@@ -786,7 +786,7 @@ select.error {
 
 .block-sponsor {
     width: 200px;
-    height: 200px;
+    height: 70px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -1492,3 +1492,26 @@ select.error {
         display: block;
     }
 }
+
+/* countdown */
+#countdown {
+    max-width: fit-content;
+  }
+  #countdown ul {
+    margin: 5% 0 0 0;
+    padding: 0;
+    display: flex;
+    gap: 5%;
+  }
+  #countdown ul li {
+    flex: 25%;
+    padding: 5%;
+    margin: 0;
+    list-style: none;
+    background: #ffffff36;
+    border-radius: 5px;
+  }
+  #countdown ul li span {
+    display: block;
+    font-size: 3rem;
+  }
