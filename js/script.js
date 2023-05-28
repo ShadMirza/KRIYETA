@@ -182,27 +182,4 @@ function initializeMap() {
         e(this).addClass("active");
     }),
     e(".venobox").venobox({ titleattr: "data-title", numeratio: !0 });
-  var a = new Instafeed({
-    get: "user",
-    userId: "305801553",
-    resolution: "standard_resolution",
-    accessToken: "305801553.1677ed0.3d872300c10c4ff687868875ee8abc5d",
-    limit: 6,
-    template:
-      '<li class="col-sm-4"><a href="{{link}}"><img src="{{image}}"/></a></li>',
-  });
-  a.run();
-  var o = e(".registry-form");
-  o.validate({
-    validClass: "valid",
-    errorClass: "error",
-    errorPlacement: function (e, l) {
-      return !0;
-    },
-    onfocusout: function (l, t) {
-      e(l).valid();
-    },
-    rules: { email: { required: !0, email: !0 } },
-    rules: { name: { required: !0, minlength: 3 } },
-  });
 })(jQuery);
